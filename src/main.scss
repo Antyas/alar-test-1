@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background: #cccccc;
+}
+
+.container {
+  display: grid;
+  padding: 30px;
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.first-canvas {
+  height: 600;
+  width: 600;
+  background: #888888;
+}
+
+.second-canvas {
+  height: 50;
+  width: 600;
+  background: #888888;
+}
+
